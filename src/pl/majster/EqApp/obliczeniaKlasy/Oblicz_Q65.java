@@ -5,11 +5,8 @@ import org.apache.commons.lang3.ArrayUtils;
 import pl.majster.EqApp.ObliczeniaIf.Oblicz;
 
 
-
 public class Oblicz_Q65 extends Oblicz {
 
-	
-	
 	public static String dlaPLO4(String hand, String range,String gra) throws IOException {
 		String [] pytanie = {
 								
@@ -20,7 +17,6 @@ public class Oblicz_Q65 extends Oblicz {
 				"     PLAYER_2=" + "'"+ range +"'" 
 			
 		};
-		
 		
 		
 		String [] komenda  = ArrayUtils.addAll(sciezka, pytanie); 

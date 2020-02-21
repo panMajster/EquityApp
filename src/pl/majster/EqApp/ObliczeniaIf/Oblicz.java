@@ -2,7 +2,6 @@ package pl.majster.EqApp.ObliczeniaIf;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-
 import org.apache.commons.io.IOUtils;
 
 public abstract class Oblicz {
