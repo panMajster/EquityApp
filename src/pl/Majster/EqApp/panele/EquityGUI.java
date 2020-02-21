@@ -1,18 +1,19 @@
 package pl.Majster.EqApp.panele;
-import pl.majster.EqApp.obliczeniaKlasy.*;
-
-
-
+import java.io.Serializable;
 
 import javax.swing.JFrame;
-import pl.majster.EqApp.obliczenia.*;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 
-public class EquityGUI {
+
+
+
+
+public class EquityGUI implements Serializable {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JFrame ramka;
 	
 	

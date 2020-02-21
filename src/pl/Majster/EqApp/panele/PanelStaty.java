@@ -5,12 +5,12 @@ package pl.Majster.EqApp.panele;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTable;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
+import java.io.Serializable;
 
-public class PanelStaty extends JPanel {
+public class PanelStaty extends JPanel implements Serializable {
 	/**
 	 * 
 	 */

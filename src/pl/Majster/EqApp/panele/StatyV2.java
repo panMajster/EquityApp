@@ -1,8 +1,10 @@
 package pl.Majster.EqApp.panele;
+import java.io.Serializable;
+
 import javax.swing.JPanel;
 import javax.swing.JTable;
 
-public class StatyV2 extends JPanel{
+public class StatyV2 extends JPanel implements Serializable{
 
 	/**
 	 * 

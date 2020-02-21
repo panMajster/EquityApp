@@ -19,5 +19,6 @@
 	<classpathentry kind="src" path="ui_jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/rd/Apache POI Libs/poi-4.1.1/ooxml-lib/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="lib" path="/home/rd/Apache POI Libs/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/rd/Apache POI Libs/commons-lang3-3.9/commons-lang3-3.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

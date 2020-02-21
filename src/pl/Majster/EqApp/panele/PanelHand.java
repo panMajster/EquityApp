@@ -11,11 +11,12 @@ import pl.majster.EqApp.obliczeniaKlasy.Oblicz_RawEquity;
 
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.io.Serializable;
 import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
 import java.awt.Choice;
 
-public class PanelHand extends JPanel {
+public class PanelHand extends JPanel implements Serializable {
 	/**
 	 * 
 	 */
@@ -172,6 +173,25 @@ public class PanelHand extends JPanel {
 		JButton btnClear = new JButton("Clear");
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent click) {
+				
+				PanelStaty.comp_50.setText("-");
+				PanelStaty.comp_80.setText("-");
+				PanelStaty.comp_100.setText("-");
+				
+				PanelStaty.HvsR50EQ.setText("-");
+				PanelStaty.HvsR800EQ.setText("-");
+				PanelStaty.HvsR100EQ.setText("-");
+				
+				PanelStaty.Q45_50.setText("-");
+				PanelStaty.Q45_80.setText("-");
+				PanelStaty.Q45_100.setText("-");
+				
+				PanelStaty.Q65_50.setText("-");
+				PanelStaty.Q65_80.setText("-");
+				PanelStaty.Q65_100.setText("-");
+				
+				
+				
 				
 				
 				
