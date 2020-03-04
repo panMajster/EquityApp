@@ -6,7 +6,7 @@ import org.apache.commons.io.IOUtils;
 
 public abstract class Oblicz {
 
-	public static String [] sciezka = {"java","-cp","/opt/PPTOddsOracle/ui_jar/p2.jar",
+	public static final String [] sciezka = {"java","-cp","/opt/PPTOddsOracle/ui_jar/p2.jar",
 			"propokertools.cli.RunPQL"};
 	
 	
@@ -16,6 +16,9 @@ public abstract class Oblicz {
 		String output = IOUtils.toString(processBuilder.start().getInputStream(),StandardCharsets.UTF_8);
 		String[]czesci = output.split(" ");
 		String wynik = czesci[2];
+		
+		wynik = wynik.replace(",", ".");
+		wynik = wynik.replace("%", "");
 		
 		return wynik;
 	}
